@@ -36,7 +36,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          find public -name "index.md" -type f | while read -r file; do
+            dir=$(dirname "$file")
+            parent=$(dirname "$dir")
+            slug=$(basename "$dir")
+            [ "$slug" != "public" ] && cp "$file" "$parent/${slug}.md"
+          done
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

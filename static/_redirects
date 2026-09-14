@@ -1,0 +1,2 @@
+/blog/*.md /blog/:splat/index.md 200
+/*/*.md /:splat/index.md 200

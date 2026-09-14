@@ -66,5 +66,22 @@ enableGitInfo = true
   [services.googleAnalytics]
     ID = "G-09506ENLJ2"
 
-[outputFormats.RSS]
-  baseName = "rss"
+[mediaTypes]
+  [mediaTypes."text/markdown"]
+    suffixes = ["md"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "rss"
+
+  [outputFormats.MARKDOWN]
+    mediaType = "text/markdown"
+    baseName = "index"
+    isPlainText = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MARKDOWN"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
