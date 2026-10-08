@@ -37,6 +37,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build site
         run: |
+          python3 scripts/generate-llms.py
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
           find public -name "index.md" -type f | while read -r file; do
             dir=$(dirname "$file")

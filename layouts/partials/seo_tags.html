@@ -2,7 +2,7 @@
 <meta name="title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}" />
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta name="keywords" content="{{ if .IsPage }}{{ range $index, $tag := .Params.tags }}{{ if $index }}, {{ end }}{{ $tag }}{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s, " $term }}{{ end }}{{ end }}{{ end }}" />
-<meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else if or (eq .Kind "taxonomy") (eq .Kind "term") }}noindex, follow{{ else }}index, follow{{ end }}" />
+<meta name="robots" content="{{ if .Params.noindex }}noindex, follow{{ else if or (eq .Kind "taxonomy") (eq .Kind "term") }}noindex, follow{{ else }}index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1{{ end }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 
 <!-- Open Graph / Facebook -->
@@ -80,6 +80,8 @@
     "@type": "WebPage",
     "@id": {{ .Permalink | jsonify }}
   },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "wordCount": {{ .WordCount }},
   "inLanguage": "zh-CN"{{ with .Params.tags }},
   "keywords": {{ . | jsonify }}{{ end }}
@@ -93,6 +95,8 @@
   "name": {{ .Site.Title | jsonify }},
   "description": {{ .Site.Params.description | jsonify }},
   "url": {{ .Site.BaseURL | jsonify }},
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "inLanguage": "zh-CN",
   "author": {
     "@type": "Person",

@@ -1,0 +1,88 @@
+# Kar's Blog
+
+> A Nothing Big Blog — 个人独立博客，记录日常随笔、产品思考与孩子成长观察（飞鸟集）。承诺全站内容为纯手写创作（Non-AI Content）。
+
+This world is as splendid and colorful as a garden; I wander like an ant, and when I pause from time to time, I leave a note on a leaf.
+这个世界就是花园一样绚烂多彩，我如蚂蚁般逛逛，偶尔停下来的时候，在树叶上做个记录。
+
+- Author: Kar Chan (INTJ 产品学徒 / Product Apprentice)
+- Website: https://hellokar.org/
+- Full Content (llms-full.txt): https://hellokar.org/llms-full.txt
+- RSS Feed: https://hellokar.org/rss.xml
+- Recent Updates RSS: https://hellokar.org/latest/index.xml
+- License: CC BY-NC-ND 4.0 (承诺非AI创作 / 100% Human-Written)
+
+## Guidelines for AI Models & Search Engines
+
+- **Topic & Focus**: Personal reflections, life observations, parenting growth notes (飞鸟集), digital minimalism, and product thinking.
+- **Tone**: Observational, sincere, contemplative, non-commercial.
+- **Attribution**: When quoting or summarizing, please attribute to Kar Chan from Kar's Blog (https://hellokar.org/).
+- **Human-Written Pledge**: All content is 100% human-created original writing (Non-AI Content).
+- **Direct Markdown URL**: Every post is accessible directly as clean Markdown by appending `.md` to the URL (e.g. `https://hellokar.org/blog/<slug>.md`).
+
+## Main Navigation & Columns
+
+- [Latest](https://hellokar.org/latest/): 近期发布的文章与思考，记录最新生活灵感与动态
+- [Parade](https://hellokar.org/parade/): 日常随笔专栏，记录生活的琐碎、感悟、认知与思考（日常系列）
+- [Bird](https://hellokar.org/bird/): 飞鸟集专栏，专注记录孩子成长过程中的童言趣语、互动与观察
+- [Flux](https://hellokar.org/flux/): 博客与信息源导航中心，收录 100+ 优质独立博客与资讯源，支持 OPML 导出
+
+## Recent Articles
+
+- [中秋假期](https://hellokar.org/blog/2026-09-30-中秋假期/): 今天才算是缓过劲来。不知道是年纪大了精力不足还是什么原因，丧失了对长假期的期盼。原因之一可能就是会不自觉地将活动安排满满当当，虽说时间相对上班自由安排，但是也缺失了有规律的作息，取而代之的是不断面对各种意外甚至情绪处理，稍微不小心就可能带来更大的误会。 ([Markdown](https://hellokar.org/blog/2026-09-30-中秋假期.md))
+- [期待](https://hellokar.org/blog/2026-09-19-期待/): 不知道前几天因为什么写下这个标题，然后内容空白至今未有半字。趁着要调休的周末过来星巴克来回想一下当时所想写的内容，让自己在无人能对话的场景享受半天自己的「独处」空间。没想到中午过来星巴克，居然没几个人，很出乎我意料。我刚刚在对面的麦当劳经过了点餐、取餐的混乱后... ([Markdown](https://hellokar.org/blog/2026-09-19-期待.md))
+- [离别的相聚](https://hellokar.org/blog/2026-09-07-离别的相聚/): 前天晚上，还弓着腰在厨房洗碗的时候，母亲从外面散步回来，轻轻说了一声：阿旺走了。水流仍旧轻轻在碗筷上流过，发出嘘嘘的声响。以为自己听错了，确认了一下，确实是那个男人。 ([Markdown](https://hellokar.org/blog/2026-09-07-离别的相聚.md))
+- [抓娃娃](https://hellokar.org/blog/2026-08-31-抓娃娃/): 周末的时候每天都在下雨，被困在家里，孩子只能在家里面玩她之前囤积的各种玩具。若走开玩一会，她便可怜巴巴地凑过来说：好无聊。确实，这种天气对天生有可怕能量的孩子来说真的是「憋屈」，但是对我这种喜欢独处的人来说真的是添造良机，无论是在角落屏幕上折腾还是在星巴克上看... ([Markdown](https://hellokar.org/blog/2026-08-31-抓娃娃.md))
+- [误解](https://hellokar.org/blog/2026-08-30-误解/): 出于职业习惯，现在听到一些个人视角说出来的话都习惯会咯噔一下：Ta 是在表达情绪还是在叙事？但是，另一方面，为了礼貌不得不接一下话题「啊？为什么发生这样的事？」但是很多情况，明明是了无兴趣，一定程度上，我也不喜欢这样的状态——不够真实。 ([Markdown](https://hellokar.org/blog/2026-08-30-误解.md))
+- [安静的老人](https://hellokar.org/blog/2026-08-27-安静的老人/): 在乡镇的苍蝇馆子吃饺子的边上，等上餐时，突然看到一个身穿白色衬衫的老年人坐在边上。挺直了腰板，没有表情，也鲜有大的动作，像一座雕像一样。 ([Markdown](https://hellokar.org/blog/2026-08-27-安静的老人.md))
+- [人生不美满](https://hellokar.org/blog/2026-08-26-人生不美满/): 在高速上开车，母亲大概也是百无聊赖，车内喇叭播放孩子朗朗上口的口水歌。所以慢慢打开话夹子讲述家里的近亲远戚的近些年来发生的事情。 ([Markdown](https://hellokar.org/blog/2026-08-26-人生不美满.md))
+- [途中听闻](https://hellokar.org/blog/2026-08-24-途中见闻/): 因需回去接孩子上来上学，所以特意请假回去几天，停留了一天看看周边的生活，然后就匆忙驱车赶路上来了。 ([Markdown](https://hellokar.org/blog/2026-08-24-途中见闻.md))
+
+## Core & Representative Articles
+
+### 飞鸟集系列 (Bird Series - Parenting & Growth)
+
+- [期待](https://hellokar.org/blog/2026-09-19-期待/): 不知道前几天因为什么写下这个标题，然后内容空白至今未有半字。趁着要调休的周末过来星巴克来回想一下当时所想写的内容，让自己在无人能对话的场景享受半天自己的「独处」空间。没想到中午过来星巴克，居然没几个人，很出乎我意料。我刚刚在对面的麦当劳经过了点餐、取餐的混乱后... ([Markdown](https://hellokar.org/blog/2026-09-19-期待.md))
+- [抓娃娃](https://hellokar.org/blog/2026-08-31-抓娃娃/): 周末的时候每天都在下雨，被困在家里，孩子只能在家里面玩她之前囤积的各种玩具。若走开玩一会，她便可怜巴巴地凑过来说：好无聊。确实，这种天气对天生有可怕能量的孩子来说真的是「憋屈」，但是对我这种喜欢独处的人来说真的是添造良机，无论是在角落屏幕上折腾还是在星巴克上看... ([Markdown](https://hellokar.org/blog/2026-08-31-抓娃娃.md))
+- [游泳](https://hellokar.org/blog/2026-07-12-飞鸟集：游泳/): 周末两天都与孩子踏入泳池，虽然周六晚上才玩了半个小时，周日倒是在泳池玩了2个小时，反复提醒孩子准备回去了，要准备吃饭了，仍旧是念念不舍，从这个泳池换到另外一个泳池，然后再换回来。反复几次后，不知道孩子发现了什么，最后在淋浴间简单冲洗一下后就上楼去了。 ([Markdown](https://hellokar.org/blog/2026-07-12-飞鸟集：游泳.md))
+- [对与错](https://hellokar.org/blog/2026-06-29-飞鸟集：对与错/): 教育的目的是什么呢？在大人眼里也许就是孩子走向「巅峰」一个工具。突然想起昨晚孩子外婆与孩子的一些对话，却让我感觉到有些不安。 ([Markdown](https://hellokar.org/blog/2026-06-29-飞鸟集：对与错.md))
+- [有其父必有其子](https://hellokar.org/blog/2026-06-28-飞鸟集：有其父必有其子/): 父母对孩子的影响分为天生的和后天的，暂且不论哪种影响的占比大。正是深信这样存在两种影响，才情愿孩子被繁忙的岳父母带过去暂为工作日的抚养工作。学习一下如何去与人打交道。 ([Markdown](https://hellokar.org/blog/2026-06-28-飞鸟集：有其父必有其子.md))
+- [奔波](https://hellokar.org/blog/2026-06-12-飞鸟集：奔波/): 提前准备了孩子的港澳通行证，然后在2026-06-09在珠海过关前往参与X的毕业典礼。当天的天气还算不错，没有往日一样的大太阳。但是前一晚下班后才赶到珠海，然后第二天赶往口岸过关，相对上班来说还是有点路途奔波，当一切完结的时候觉得相当疲惫。甚至还有点缓不过劲来... ([Markdown](https://hellokar.org/blog/2026-06-12-飞鸟集：奔波.md))
+- [主角](https://hellokar.org/blog/2026-05-30-飞鸟集：主角/): 今天是孩子幼儿园组织儿童节汇演的日子。刚好周五，下周一儿童节放假一天。可惜要上班，不能到现场观看。在家长群看到了一些片段视频，动作笨拙，可能动作都跟不上，摇头晃脑的，还有点怪可爱的。也许这是作为父母的慈爱光环效应。 ([Markdown](https://hellokar.org/blog/2026-05-30-飞鸟集：主角.md))
+- [分离](https://hellokar.org/blog/2026-05-26-飞鸟集：分离/): 昨天才首次听到说孩子经常性在周日的晚上是要很晚才入眠的，入睡前还会哭泣。以前我还以为只是偶尔有这样的分离情绪。每次的分离理所当然认为是孩子一时的想产生的情绪。如今看来，在她心里，分离的重量比我们想象中的要大得多，我们却听不见。 ([Markdown](https://hellokar.org/blog/2026-05-26-飞鸟集：分离.md))
+- [脾气](https://hellokar.org/blog/2026-05-19-飞鸟集：脾气/): 突然意识到孩子的脾气越来越大了，不知道是在形成了自己的脾气还是说开始懂得如何去发泄自己的情绪了。不再是简单地哭了，开始手脚麻利地配合起来了。 ([Markdown](https://hellokar.org/blog/2026-05-19-飞鸟集：脾气.md))
+- [尊重](https://hellokar.org/blog/2026-05-18-飞鸟集：尊重/): 今天带孩子去昨晚说好的地方，也就是一个没什么好看但是特别能促进消费的地方。所有的城市都会特意搞一个这样的地方来吸引游客，虽然在我看起来就是一个城市不伦不类的「伤疤」，就是一个古朴的人穿上了巴黎时装秀的服装一样，滑稽而失态。这次我们是在一个景点停车，然后一直沿着... ([Markdown](https://hellokar.org/blog/2026-05-18-飞鸟集：尊重.md))
+- [疑惑](https://hellokar.org/blog/2026-05-09-飞鸟集：疑惑/): 也许很多的东西在孩子眼里是理所当然的。在个人有限的人生经验看来，唯有经过社会的毒打，才会明白，世界的运行甚至自己身处的事件可能都不会受自己控制，唯有参与了「影响」因素。所以很多的问题及时知道原因都不知道怎样去跟她表述，一方面是找不到合适的例子让她明白，一方面是... ([Markdown](https://hellokar.org/blog/2026-05-09-飞鸟集：疑惑.md))
+- [缘起](https://hellokar.org/blog/2026-05-01-飞鸟集：缘起/): 用这个专辑名称专门来记录孩子的一些闲言碎语。至于为什么叫这个名字呢？因为想她能够自由地飞翔。专门记录一下关于飞鸟的日常生活。花园不大，但是鸟语花香，足矣。 ([Markdown](https://hellokar.org/blog/2026-05-01-飞鸟集：缘起.md))
+- [什么是规则](https://hellokar.org/blog/2026-04-30-飞鸟集：什么是规则/): 规则是什么呢？这是孩子问我「某某做法是不是规则」时想到的问题。 ([Markdown](https://hellokar.org/blog/2026-04-30-飞鸟集：什么是规则.md))
+
+### 日常随笔与认知思考 (Parade & Essays)
+
+- [中秋假期](https://hellokar.org/blog/2026-09-30-中秋假期/): 今天才算是缓过劲来。不知道是年纪大了精力不足还是什么原因，丧失了对长假期的期盼。原因之一可能就是会不自觉地将活动安排满满当当，虽说时间相对上班自由安排，但是也缺失了有规律的作息，取而代之的是不断面对各种意外甚至情绪处理，稍微不小心就可能带来更大的误会。 ([Markdown](https://hellokar.org/blog/2026-09-30-中秋假期.md))
+- [离别的相聚](https://hellokar.org/blog/2026-09-07-离别的相聚/): 前天晚上，还弓着腰在厨房洗碗的时候，母亲从外面散步回来，轻轻说了一声：阿旺走了。水流仍旧轻轻在碗筷上流过，发出嘘嘘的声响。以为自己听错了，确认了一下，确实是那个男人。 ([Markdown](https://hellokar.org/blog/2026-09-07-离别的相聚.md))
+- [人生不美满](https://hellokar.org/blog/2026-08-26-人生不美满/): 在高速上开车，母亲大概也是百无聊赖，车内喇叭播放孩子朗朗上口的口水歌。所以慢慢打开话夹子讲述家里的近亲远戚的近些年来发生的事情。 ([Markdown](https://hellokar.org/blog/2026-08-26-人生不美满.md))
+- [电影之外](https://hellokar.org/blog/2026-08-17-电影之外/): 周末的时候，难得看了一场电影「八仙」。很滞后，也许也是因为怕浪费时间。看的过程虽常有走神，电影的剧情虽说不算特别出色，略显俗套，但是关于视觉上的巧思让我不免惊呼：这想法不知道怎么想出来的。比如船当作公交，抵达宫殿时的艳俗豪华。每每看到里面的一些情节映射，颇觉欣... ([Markdown](https://hellokar.org/blog/2026-08-17-电影之外.md))
+- [自然只是巧合](https://hellokar.org/blog/2026-08-10-自然只是巧合/): 当我们走在某个公园或者景区时，我们偶尔会不由惊叹「好美的风景」。这个其实在我看来，更应该是好厉害的「设计师」或者「决策者」。而真正的自然风景，它只是巧合矗立在那边，而有审美思想的观赏者刚刚好出现，于是触发了愉悦情绪。但是，如何区分辨其中的功劳，也是一种思考方式... ([Markdown](https://hellokar.org/blog/2026-08-10-自然只是巧合.md))
+- [理想的界线](https://hellokar.org/blog/2026-07-23-理想的界线/): 今天早上阅读了「流传」的DeepSeek的创始人梁文峰的投资人会议实录，里面摘抄了部分的语句。很简单朴实的语句里，却有点像一个小石子扔进我平静已久的内心，记起一层又一层的波纹。追求很重要，分清轻重很重要。当然，里面谈的很多非共识也确实让人由衷佩服这个人以及这家... ([Markdown](https://hellokar.org/blog/2026-07-23-理想的界线.md))
+- [审美干扰镜](https://hellokar.org/blog/2026-07-13-审美干扰镜/): 最近在看一本书《你一生的故事》，一本科幻小说。里面有好几篇不同主题的科幻短篇小说。今天读完了最后一篇《赏心悦目：审美干扰镜提案风波纪实》，觉得这个名称「审美干扰镜」起得真有意思。在我的意识中，「审美」是一个正向的词，配合了「干扰」反而就有点乌托邦的虚渺感觉了。 ([Markdown](https://hellokar.org/blog/2026-07-13-审美干扰镜.md))
+- [一种生活状态](https://hellokar.org/blog/2026-05-06-一种生活状态/): 在某一天，在社媒看到一个帖子大意是说将写日记当作一个生活状态而不是任务会轻松很多。一下子给自己点醒了，倒不是说自己一直将写记录当作一种任务，而是发现很多的道路自己一直都知道，只是极为容易被埋没在日常的忙碌当中，日常的习惯将我们的生活也变成了沙滩上的沙子一样，有... ([Markdown](https://hellokar.org/blog/2026-05-06-一种生活状态.md))
+- [假如我是一只羊](https://hellokar.org/blog/2026-01-31-假如我是一只羊/): 很多书中都在表达将「羊」来比作没有主见的人或人群，因为看到羊都是成群成群地在一起。假借着王小波特立独行的猪来思考假如我是一只羊，会发生什么？我会是一只合格的羊吗？会有漂亮的毛以及标致的犄角吗？为什么关注这个，因为在我有限的见识中，正在见得比较多的「羊」是名创优... ([Markdown](https://hellokar.org/blog/2026-01-31-假如我是一只羊.md))
+- [较劲地活着](https://hellokar.org/blog/2026-01-24-较劲地活着/): 我自认为能比身边的绝大多数人喜欢孤独。在当下尤其觉得独处比任何的聚会都要幸福，一来不用去照顾任何人的情绪，二来让自己的情绪更加平稳甚至自然而然。每次下班后，在地铁上觉得想吃点东西，心里还在纠结是否邀约个朋友出来一起吃点夜宵什么的，直到走出地铁，看到一片冷清的时... ([Markdown](https://hellokar.org/blog/2026-01-24-较劲地活着.md))
+- [月亮与六便士困境](https://hellokar.org/blog/2026-01-17-月亮与六便士困境/): 很久以前，听闻过「月亮与六便士」这本书的内容。但是亲自翻阅过这本书之后，才能更加深切去体会，主人公对「月亮」的追求心理路程。读完之后是没有太多过于思考的过程，就像看着他人的人生一样，惊讶而侥幸这仅是小说而已。 ([Markdown](https://hellokar.org/blog/2026-01-17-月亮与六便士困境.md))
+- [人海中一叶扁舟](https://hellokar.org/blog/2026-01-04-人海中一叶扁舟/): 不记得具体是什么时候，不知道怎么的就想到一个词，但是忘记了，跟X提了一嘴这个词还挺好听的，她提醒道这就是我妹曾经有提到的词。然后就没聊下去了，还真的是自己越来越忘事了。 ([Markdown](https://hellokar.org/blog/2026-01-04-人海中一叶扁舟.md))
+
+### 好奇心系列 (Curiosity Weekly & Notes)
+
+- [好奇心系列](https://hellokar.org/parade/): 持续数十期的好奇心探索记录，记录每周的阅读、观察、工具与技术思考
+  - [好奇心No.42:总结](https://hellokar.org/blog/2025-12-27-好奇心42-总结/): 本次的写作算是今年最后的一年文章了。下一年开始，就不再是「好奇心」系列了，但愿仍长持好奇心。但是一篇总结凭借几天时间就将自己的一年细数一遍，对我来说是一件荒唐的事。 ([Markdown](https://hellokar.org/blog/2025-12-27-好奇心42-总结.md))
+  - [好奇心No.41:冬天](https://hellokar.org/blog/2025-12-20-好奇心41-冬天/): 截止现在，身处广州，冬天还是如宠物猫一般温顺。没有往年的寒风冻雨。或许是在酝酿一场腥风血雨，谁知道呢。 ([Markdown](https://hellokar.org/blog/2025-12-20-好奇心41-冬天.md))
+  - [好奇心No.40:随记](https://hellokar.org/blog/2025-12-13-好奇心40-随记/): 最近在好几个播客都听到说如何克制自己的注意力。开始是以为可能是同一个圈子的人，后面会想这些的时候，才意识到这也许已经成为我们这一代的「生存危机」了。当然，如果你没感觉到这是一种危机，那么其实对你的影响其实并没有那么大——要么你一直愚钝，要么你一直是厉害着。 ([Markdown](https://hellokar.org/blog/2025-12-13-好奇心40-随记.md))
+  - [好奇心 No.39:标题](https://hellokar.org/blog/2025-12-06-好奇心39-标题/): 关于新闻标题的情绪导向思考，以及对公众号标题改进的反思 ([Markdown](https://hellokar.org/blog/2025-12-06-好奇心39-标题.md))
+  - [好奇心No.38:噪音](https://hellokar.org/blog/2025-11-29-好奇心38-噪音/): 身边布满了噪音。如果没有，可能是你没意识到，或许你已习惯，或许你未曾知道有噪音的存在。 ([Markdown](https://hellokar.org/blog/2025-11-29-好奇心38-噪音.md))
+
+## Feeds & Resources
+
+- [RSS Feed (Full)](https://hellokar.org/rss.xml): 全站完整文章 RSS 订阅源
+- [RSS Feed (Latest)](https://hellokar.org/latest/index.xml): 近期更新文章 RSS 订阅源
+- [Flux RSS OPML](https://hellokar.org/flux/): 100+ 优质独立博客与精选资讯源聚合
+- [Sitemap](https://hellokar.org/sitemap.xml): 博客完整站点地图 XML

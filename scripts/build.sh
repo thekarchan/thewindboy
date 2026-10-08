@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+echo "==> Generating GEO files (llms.txt, llms-full.txt)..."
+python3 scripts/generate-llms.py
+
 hugo "$@"
 
 echo "==> Generating companion .md files for direct URL access..."

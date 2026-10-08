@@ -1,2 +1,4 @@
 /blog/*.md /blog/:splat/index.md 200
 /*/*.md /:splat/index.md 200
+/.well-known/llms.txt /llms.txt 301
+/.well-known/llms-full.txt /llms-full.txt 301

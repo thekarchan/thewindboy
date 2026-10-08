@@ -4,3 +4,5 @@
 {{ with .OutputFormats.Get "MARKDOWN" }}
 <link rel="alternate" type="text/markdown" title="{{ $.Title }} (Markdown)" href="{{ replace .Permalink "/index.md" ".md" }}">
 {{ end }}
+<link rel="alternate" type="text/markdown" title="LLMs.txt" href="{{ "llms.txt" | absURL }}">
+<link rel="alternate" type="text/markdown" title="LLMs-full.txt" href="{{ "llms-full.txt" | absURL }}">
