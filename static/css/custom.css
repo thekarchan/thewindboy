@@ -247,7 +247,22 @@ main {
     font-size: 0.85em;
     padding-left: 2px;
 }
+/* Hide sidenotes on any list page and summary */
 .sidenote-content {
+    display: none;
+}
+.post-summary .sidenote-content,
+.blog-posts .sidenote-content {
+    display: none !important;
+}
+.post-summary .sidenote-marker,
+.blog-posts .sidenote-marker {
+    cursor: default;
+}
+
+/* Display sidenote in right margin on article detail (>1250px) */
+content .sidenote-content {
+    display: block;
     float: right;
     clear: right;
     margin-right: -250px;
@@ -257,7 +272,7 @@ main {
     color: #555;
 }
 @media (prefers-color-scheme: dark) {
-    .sidenote-content {
+    content .sidenote-content {
         color: #bbb;
     }
 }

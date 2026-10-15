@@ -15,12 +15,12 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
       {{- $content := .Content -}}
-      {{- $sidenotes := findRE `<span class="sidenote-content">.*?</span>` $content -}}
+      {{- $sidenotes := findRE `(?s)<span class="sidenote-content">.*?</span>` $content -}}
       {{- if $sidenotes -}}
-        {{- $content = replaceRE `<span class="sidenote-content">.*?</span>` "" $content -}}
+        {{- $content = replaceRE `(?s)<span class="sidenote-content">.*?</span>` "" $content -}}
         {{- $footnotes := `<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;" /><div style="line-height: 2; font-size: 0.9em; color: #666;">` -}}
         {{- range $sidenotes -}}
-          {{- $text := replaceRE `<span class="sidenote-content">(.*?)</span>` "$1" . -}}
+          {{- $text := replaceRE `(?s)<span class="sidenote-content">(.*?)</span>` "$1" . -}}
           {{- $footnotes = printf "%s<p style=\"margin: 0.5em 0; line-height: 2;\">%s</p>" $footnotes $text -}}
         {{- end -}}
         {{- $footnotes = printf "%s</div>" $footnotes -}}
