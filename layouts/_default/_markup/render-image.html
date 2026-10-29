@@ -1,9 +1,10 @@
-{{- $url := urls.Parse .Destination -}}
-{{- if $url.IsAbs -}}
+{{- $u := urls.Parse .Destination -}}
+{{- if $u.IsAbs -}}
   <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" style="max-width: 100%; height: auto;" />
 {{- else -}}
-  {{- $img := .Page.Resources.GetMatch .Destination -}}
-  {{- if and $img (not (strings.HasSuffix .Destination ".svg")) (not (strings.HasSuffix .Destination ".gif")) -}}
+  {{- $cleanPath := strings.TrimPrefix "./" $u.Path -}}
+  {{- $img := or (.Page.Resources.GetMatch $u.Path) (.Page.Resources.GetMatch $cleanPath) -}}
+  {{- if and $img (not (strings.HasSuffix $cleanPath ".svg")) (not (strings.HasSuffix $cleanPath ".gif")) -}}
     {{- $optimized := $img -}}
     {{- if gt $img.Width 1200 -}}
       {{- $optimized = $img.Resize "1200x webp q85" -}}
@@ -12,6 +13,19 @@
     {{- end -}}
     <img src="{{ $optimized.RelPermalink }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} width="{{ $optimized.Width }}" height="{{ $optimized.Height }}" loading="lazy" style="max-width: 100%; height: auto;" />
   {{- else -}}
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" style="max-width: 100%; height: auto;" />
+    {{- $src := .Destination -}}
+    {{- if and (not (hasPrefix $u.Path "/")) (not (hasPrefix $u.Path "http://")) (not (hasPrefix $u.Path "https://")) -}}
+      {{- with .Page.File -}}
+        {{- $resolved := path.Join "/" .Dir $cleanPath -}}
+        {{- $src = $resolved | relURL -}}
+        {{- with $u.RawQuery -}}
+          {{- $src = printf "%s?%s" $src . -}}
+        {{- end -}}
+        {{- with $u.Fragment -}}
+          {{- $src = printf "%s#%s" $src . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    <img src="{{ $src | safeURL }}" alt="{{ .Text }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" style="max-width: 100%; height: auto;" />
   {{- end -}}
 {{- end -}}
