@@ -74,7 +74,9 @@ def parse_post(file_path: Path):
                 if p.strip() and not p.strip().startswith("#") and not p.strip().startswith("!")
             ]
             raw_s = paras[0] if paras else ""
-        clean_s = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", raw_s)
+        clean_s = re.sub(r"!\[([^\]]*)\]\([^\)]+\)", "", raw_s)
+        clean_s = re.sub(r"<[^>]+>", "", clean_s)
+        clean_s = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", clean_s)
         clean_s = re.sub(r"[*_#`>]", "", clean_s).strip().replace("\n", " ")
         meta["summary"] = (clean_s[:130] + "...") if len(clean_s) > 130 else clean_s
 

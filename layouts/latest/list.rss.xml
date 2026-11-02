@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ .Site.Title }} (近期更新)</title>
     <link>{{ .Site.BaseURL }}</link>
@@ -14,6 +14,12 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink }}</guid>
+      {{- $summary := replaceRE `(?s)<span class="sidenote-content">.*?</span>` "" .Summary -}}
+      {{- $summary = replaceRE `(?s)<figure\b.*?</figure>` "" $summary -}}
+      {{- $summary = replaceRE `(?s)<picture\b.*?</picture>` "" $summary -}}
+      {{- $summary = replaceRE `(?s)<a\b[^>]*>\s*<img\b[^>]*>\s*</a>` "" $summary -}}
+      {{- $summary = replaceRE `(?s)<img\b[^>]*>` "" $summary -}}
+      <description>{{ $summary | plainify | htmlEscape }}</description>
       {{- $content := .Content -}}
       {{- $sidenotes := findRE `(?s)<span class="sidenote-content">.*?</span>` $content -}}
       {{- if $sidenotes -}}
@@ -26,7 +32,10 @@
         {{- $footnotes = printf "%s</div>" $footnotes -}}
         {{- $content = printf "%s%s" $content $footnotes -}}
       {{- end -}}
-      <description>{{ (printf "%s<br><br><div style=\"text-align: right;\"><a href=\"%s\" style=\"text-decoration: underline;\">看完了，进来坐坐？</a></div>" $content .Permalink) | html }}</description>
+      {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
+      {{- $content = replaceRE `src=["']/(.*?)["']` (printf `src="%s/$1"` $base) $content -}}
+      {{- $content = replaceRE `src=["'](?:\./)?assets/(.*?)["']` (printf `src="%s/blog/assets/$1"` $base) $content -}}
+      {{ printf `<content:encoded><![CDATA[%s<br><br><div style="text-align: right;"><a href="%s" style="text-decoration: underline;">看完了，进来坐坐？</a></div>]]></content:encoded>` $content .Permalink | safeHTML }}
     </item>
     {{ end }}
   </channel>

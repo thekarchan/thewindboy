@@ -146,6 +146,15 @@ content a:hover {
     text-decoration: underline !important;
 }
 
+/* Article images styling in detail view */
+content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin: 1.6rem auto;
+}
+
 /* Tags styles */
 .tags a, .tags span {
     display: inline-block;
@@ -258,6 +267,16 @@ main {
 .post-summary .sidenote-marker,
 .blog-posts .sidenote-marker {
     cursor: default;
+}
+
+/* Hide images on any list page and post summary */
+.post-summary img,
+.post-summary figure,
+.post-summary picture,
+.blog-posts img,
+.blog-posts figure,
+.blog-posts picture {
+    display: none !important;
 }
 
 /* Display sidenote in right margin on article detail (>1250px) */
